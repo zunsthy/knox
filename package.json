@@ -1,27 +1,28 @@
 {
-  "name": "knox",
+  "name": "knox-s3",
   "description": "Amazon S3 client",
   "keywords": [
     "aws",
     "amazon",
     "s3"
   ],
-  "version": "0.9.2",
+  "version": "0.9.3",
   "author": "TJ Holowaychuk <tj@learnboost.com>",
   "contributors": [
     "TJ Holowaychuk <tj@learnboost.com>",
     "Domenic Denicola <domenic@domenicdenicola.com>",
-    "Oleg Slobodskoi <oleg008@gmail.com>"
+    "Oleg Slobodskoi <oleg008@gmail.com>",
+    "Danny Tracey <dwjft@nny.co>"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/LearnBoost/knox.git"
+    "url": "git://github.com/dwjft/knox.git"
   },
-  "bugs": "https://github.com/LearnBoost/knox/issues",
+  "bugs": "https://github.com/dwjft/knox/issues",
   "dependencies": {
-    "mime": "*",
+    "mime": "1.4.0",
     "xml2js": "^0.4.4",
     "debug": "^2.2.0",
     "stream-counter": "^1.0.0",

@@ -2,6 +2,14 @@
 
 Node Amazon S3 Client.
 
+# IMPORTANT
+
+This is a fork of the no-longer maintained repository here: https://github.com/Automattic/knox
+
+It exists solely to fix an issue with a breaking change in a dependant library.
+
+`npm install -s knox-s3`
+
 ## Features
 
   - Familiar API (`client.get()`, `client.put()`, etc.)
