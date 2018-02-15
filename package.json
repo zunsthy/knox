@@ -6,7 +6,7 @@
     "amazon",
     "s3"
   ],
-  "version": "0.9.3",
+  "version": "0.9.4",
   "author": "TJ Holowaychuk <tj@learnboost.com>",
   "contributors": [
     "TJ Holowaychuk <tj@learnboost.com>",
@@ -22,7 +22,7 @@
   },
   "bugs": "https://github.com/dwjft/knox/issues",
   "dependencies": {
-    "mime": "1.4.0",
+    "mime": "^1.4.0",
     "xml2js": "^0.4.4",
     "debug": "^2.2.0",
     "stream-counter": "^1.0.0",
